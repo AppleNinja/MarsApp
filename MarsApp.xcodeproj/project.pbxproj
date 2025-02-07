@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADC90ACC387595B7FE4E8AFE /* Pods_MarsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 714CE11E19C622B5C8F26C9B /* Pods_MarsApp.framework */; };
+		B845DE522D5666B600627171 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B845DE512D5666B600627171 /* AppDelegate.swift */; };
+		B845DE542D5666B600627171 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B845DE532D5666B600627171 /* SceneDelegate.swift */; };
+		B845DE592D5666B600627171 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B845DE582D5666B600627171 /* Base */; };
+		B845DE5C2D5666B600627171 /* MarsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B845DE5A2D5666B600627171 /* MarsApp.xcdatamodeld */; };
+		B845DE5E2D5666B700627171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B845DE5D2D5666B700627171 /* Assets.xcassets */; };
+		B845DE612D5666B700627171 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B845DE602D5666B700627171 /* Base */; };
+		B845DE6C2D5666B700627171 /* MarsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B845DE6B2D5666B700627171 /* MarsAppTests.swift */; };
+		B87872632D56697D00899651 /* MarsImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B878724B2D56697D00899651 /* MarsImage.swift */; };
+		B87872642D56697D00899651 /* MarsImagesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B878724D2D56697D00899651 /* MarsImagesRepository.swift */; };
+		B87872652D56697D00899651 /* FetchMarsImagesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B878724F2D56697D00899651 /* FetchMarsImagesUseCase.swift */; };
+		B87872662D56697D00899651 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87872522D56697D00899651 /* HTTPClient.swift */; };
+		B87872672D56697D00899651 /* NASAAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87872532D56697D00899651 /* NASAAPI.swift */; };
+		B87872682D56697D00899651 /* CoreDataLocalCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87872552D56697D00899651 /* CoreDataLocalCache.swift */; };
+		B87872692D56697D00899651 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87872562D56697D00899651 /* CoreDataStack.swift */; };
+		B878726A2D56697D00899651 /* MarsImagesRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87872582D56697D00899651 /* MarsImagesRepositoryImpl.swift */; };
+		B878726B2D56697D00899651 /* ImageCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B878725B2D56697D00899651 /* ImageCardCell.swift */; };
+		B878726E2D56697D00899651 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B878725F2D56697D00899651 /* GalleryViewController.swift */; };
+		B878726F2D56697D00899651 /* GalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87872602D56697D00899651 /* GalleryViewModel.swift */; };
+		B87872712D567BBA00899651 /* FetchMarsImagesUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87872702D567BBA00899651 /* FetchMarsImagesUseCaseTests.swift */; };
+		B87872732D567C1900899651 /* MarsImagesRepositoryImplTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87872722D567C1900899651 /* MarsImagesRepositoryImplTests.swift */; };
+		D5EAE52066B8F6D12DFF46CF /* Pods_MarsAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59AC218640EED184231AC2B9 /* Pods_MarsAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B845DE682D5666B700627171 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B845DE462D5666B600627171 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B845DE4D2D5666B600627171;
+			remoteInfo = MarsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07092B93948F58C1051303C2 /* Pods-MarsAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MarsAppTests/Pods-MarsAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F8274AB9E5BF7C25A2F95E0 /* Pods-MarsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsApp.debug.xcconfig"; path = "Target Support Files/Pods-MarsApp/Pods-MarsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		59AC218640EED184231AC2B9 /* Pods_MarsAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarsAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CCEFBCB421CDD5D69DA84BB /* Pods-MarsApp-MarsAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsApp-MarsAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-MarsApp-MarsAppUITests/Pods-MarsApp-MarsAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D3D84532E7EA58912594AFB /* Pods-MarsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsApp.release.xcconfig"; path = "Target Support Files/Pods-MarsApp/Pods-MarsApp.release.xcconfig"; sourceTree = "<group>"; };
+		714CE11E19C622B5C8F26C9B /* Pods_MarsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8157714C657D4255408BA934 /* Pods-MarsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsAppTests.release.xcconfig"; path = "Target Support Files/Pods-MarsAppTests/Pods-MarsAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		A49F45B27833E717F835C59C /* Pods_MarsApp_MarsAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarsApp_MarsAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B845DE4E2D5666B600627171 /* MarsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B845DE512D5666B600627171 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B845DE532D5666B600627171 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B845DE582D5666B600627171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B845DE5B2D5666B600627171 /* MarsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MarsApp.xcdatamodel; sourceTree = "<group>"; };
+		B845DE5D2D5666B700627171 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B845DE602D5666B700627171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B845DE622D5666B700627171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B845DE672D5666B700627171 /* MarsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B845DE6B2D5666B700627171 /* MarsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsAppTests.swift; sourceTree = "<group>"; };
+		B878724B2D56697D00899651 /* MarsImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarsImage.swift; sourceTree = "<group>"; };
+		B878724D2D56697D00899651 /* MarsImagesRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarsImagesRepository.swift; sourceTree = "<group>"; };
+		B878724F2D56697D00899651 /* FetchMarsImagesUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchMarsImagesUseCase.swift; sourceTree = "<group>"; };
+		B87872522D56697D00899651 /* HTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		B87872532D56697D00899651 /* NASAAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NASAAPI.swift; sourceTree = "<group>"; };
+		B87872552D56697D00899651 /* CoreDataLocalCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataLocalCache.swift; sourceTree = "<group>"; };
+		B87872562D56697D00899651 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		B87872582D56697D00899651 /* MarsImagesRepositoryImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarsImagesRepositoryImpl.swift; sourceTree = "<group>"; };
+		B878725B2D56697D00899651 /* ImageCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCardCell.swift; sourceTree = "<group>"; };
+		B878725F2D56697D00899651 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		B87872602D56697D00899651 /* GalleryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewModel.swift; sourceTree = "<group>"; };
+		B87872702D567BBA00899651 /* FetchMarsImagesUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchMarsImagesUseCaseTests.swift; sourceTree = "<group>"; };
+		B87872722D567C1900899651 /* MarsImagesRepositoryImplTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsImagesRepositoryImplTests.swift; sourceTree = "<group>"; };
+		F631CEB51BC01F1658A7DBDB /* Pods-MarsApp-MarsAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarsApp-MarsAppUITests.release.xcconfig"; path = "Target Support Files/Pods-MarsApp-MarsAppUITests/Pods-MarsApp-MarsAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B845DE4B2D5666B600627171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC90ACC387595B7FE4E8AFE /* Pods_MarsApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B845DE642D5666B700627171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EAE52066B8F6D12DFF46CF /* Pods_MarsAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47D376CA57DBB395E8ABBBA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F8274AB9E5BF7C25A2F95E0 /* Pods-MarsApp.debug.xcconfig */,
+				5D3D84532E7EA58912594AFB /* Pods-MarsApp.release.xcconfig */,
+				5CCEFBCB421CDD5D69DA84BB /* Pods-MarsApp-MarsAppUITests.debug.xcconfig */,
+				F631CEB51BC01F1658A7DBDB /* Pods-MarsApp-MarsAppUITests.release.xcconfig */,
+				07092B93948F58C1051303C2 /* Pods-MarsAppTests.debug.xcconfig */,
+				8157714C657D4255408BA934 /* Pods-MarsAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B845DE452D5666B600627171 = {
+			isa = PBXGroup;
+			children = (
+				B845DE502D5666B600627171 /* MarsApp */,
+				B845DE6A2D5666B700627171 /* MarsAppTests */,
+				B845DE4F2D5666B600627171 /* Products */,
+				47D376CA57DBB395E8ABBBA4 /* Pods */,
+				C75EF828B16931FB886492EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B845DE4F2D5666B600627171 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B845DE4E2D5666B600627171 /* MarsApp.app */,
+				B845DE672D5666B700627171 /* MarsAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B845DE502D5666B600627171 /* MarsApp */ = {
+			isa = PBXGroup;
+			children = (
+				B878725A2D56697D00899651 /* Data */,
+				B87872512D56697D00899651 /* Domain */,
+				B87872622D56697D00899651 /* Presentation */,
+				B845DE512D5666B600627171 /* AppDelegate.swift */,
+				B845DE532D5666B600627171 /* SceneDelegate.swift */,
+				B87872742D567FAD00899651 /* Resources */,
+			);
+			path = MarsApp;
+			sourceTree = "<group>";
+		};
+		B845DE6A2D5666B700627171 /* MarsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B845DE6B2D5666B700627171 /* MarsAppTests.swift */,
+				B87872702D567BBA00899651 /* FetchMarsImagesUseCaseTests.swift */,
+				B87872722D567C1900899651 /* MarsImagesRepositoryImplTests.swift */,
+			);
+			path = MarsAppTests;
+			sourceTree = "<group>";
+		};
+		B878724C2D56697D00899651 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				B878724B2D56697D00899651 /* MarsImage.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		B878724E2D56697D00899651 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				B878724D2D56697D00899651 /* MarsImagesRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		B87872502D56697D00899651 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				B878724F2D56697D00899651 /* FetchMarsImagesUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		B87872512D56697D00899651 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				B878724C2D56697D00899651 /* Entities */,
+				B878724E2D56697D00899651 /* Repositories */,
+				B87872502D56697D00899651 /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		B87872542D56697D00899651 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B87872522D56697D00899651 /* HTTPClient.swift */,
+				B87872532D56697D00899651 /* NASAAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B87872572D56697D00899651 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				B87872552D56697D00899651 /* CoreDataLocalCache.swift */,
+				B87872562D56697D00899651 /* CoreDataStack.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		B87872592D56697D00899651 /* RepositoryImpl */ = {
+			isa = PBXGroup;
+			children = (
+				B87872582D56697D00899651 /* MarsImagesRepositoryImpl.swift */,
+			);
+			path = RepositoryImpl;
+			sourceTree = "<group>";
+		};
+		B878725A2D56697D00899651 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B87872542D56697D00899651 /* Network */,
+				B87872572D56697D00899651 /* Persistence */,
+				B87872592D56697D00899651 /* RepositoryImpl */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B878725D2D56697D00899651 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B878725B2D56697D00899651 /* ImageCardCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B87872612D56697D00899651 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				B878725F2D56697D00899651 /* GalleryViewController.swift */,
+				B87872602D56697D00899651 /* GalleryViewModel.swift */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		B87872622D56697D00899651 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				B878725D2D56697D00899651 /* Components */,
+				B87872612D56697D00899651 /* Gallery */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		B87872742D567FAD00899651 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B845DE572D5666B600627171 /* Main.storyboard */,
+				B845DE5D2D5666B700627171 /* Assets.xcassets */,
+				B845DE5F2D5666B700627171 /* LaunchScreen.storyboard */,
+				B845DE622D5666B700627171 /* Info.plist */,
+				B845DE5A2D5666B600627171 /* MarsApp.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C75EF828B16931FB886492EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				714CE11E19C622B5C8F26C9B /* Pods_MarsApp.framework */,
+				A49F45B27833E717F835C59C /* Pods_MarsApp_MarsAppUITests.framework */,
+				59AC218640EED184231AC2B9 /* Pods_MarsAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B845DE4D2D5666B600627171 /* MarsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B845DE7B2D5666B700627171 /* Build configuration list for PBXNativeTarget "MarsApp" */;
+			buildPhases = (
+				4F871784C99340ECCC6781EB /* [CP] Check Pods Manifest.lock */,
+				B845DE4A2D5666B600627171 /* Sources */,
+				B845DE4B2D5666B600627171 /* Frameworks */,
+				B845DE4C2D5666B600627171 /* Resources */,
+				F014EA2A7C85FB27A988B164 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarsApp;
+			productName = MarsApp;
+			productReference = B845DE4E2D5666B600627171 /* MarsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B845DE662D5666B700627171 /* MarsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B845DE7E2D5666B700627171 /* Build configuration list for PBXNativeTarget "MarsAppTests" */;
+			buildPhases = (
+				3E2B77423E0B3275A3DEAEC2 /* [CP] Check Pods Manifest.lock */,
+				B845DE632D5666B700627171 /* Sources */,
+				B845DE642D5666B700627171 /* Frameworks */,
+				B845DE652D5666B700627171 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B845DE692D5666B700627171 /* PBXTargetDependency */,
+			);
+			name = MarsAppTests;
+			productName = MarsAppTests;
+			productReference = B845DE672D5666B700627171 /* MarsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B845DE462D5666B600627171 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B845DE4D2D5666B600627171 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B845DE662D5666B700627171 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B845DE4D2D5666B600627171;
+					};
+				};
+			};
+			buildConfigurationList = B845DE492D5666B600627171 /* Build configuration list for PBXProject "MarsApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B845DE452D5666B600627171;
+			productRefGroup = B845DE4F2D5666B600627171 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B845DE4D2D5666B600627171 /* MarsApp */,
+				B845DE662D5666B700627171 /* MarsAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B845DE4C2D5666B600627171 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B845DE5E2D5666B700627171 /* Assets.xcassets in Resources */,
+				B845DE612D5666B700627171 /* Base in Resources */,
+				B845DE592D5666B600627171 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B845DE652D5666B700627171 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E2B77423E0B3275A3DEAEC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarsAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F871784C99340ECCC6781EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F014EA2A7C85FB27A988B164 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarsApp/Pods-MarsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarsApp/Pods-MarsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MarsApp/Pods-MarsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B845DE4A2D5666B600627171 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B845DE5C2D5666B600627171 /* MarsApp.xcdatamodeld in Sources */,
+				B87872662D56697D00899651 /* HTTPClient.swift in Sources */,
+				B878726E2D56697D00899651 /* GalleryViewController.swift in Sources */,
+				B87872682D56697D00899651 /* CoreDataLocalCache.swift in Sources */,
+				B845DE522D5666B600627171 /* AppDelegate.swift in Sources */,
+				B878726F2D56697D00899651 /* GalleryViewModel.swift in Sources */,
+				B87872632D56697D00899651 /* MarsImage.swift in Sources */,
+				B87872692D56697D00899651 /* CoreDataStack.swift in Sources */,
+				B87872642D56697D00899651 /* MarsImagesRepository.swift in Sources */,
+				B878726A2D56697D00899651 /* MarsImagesRepositoryImpl.swift in Sources */,
+				B87872652D56697D00899651 /* FetchMarsImagesUseCase.swift in Sources */,
+				B878726B2D56697D00899651 /* ImageCardCell.swift in Sources */,
+				B87872672D56697D00899651 /* NASAAPI.swift in Sources */,
+				B845DE542D5666B600627171 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B845DE632D5666B700627171 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B87872732D567C1900899651 /* MarsImagesRepositoryImplTests.swift in Sources */,
+				B845DE6C2D5666B700627171 /* MarsAppTests.swift in Sources */,
+				B87872712D567BBA00899651 /* FetchMarsImagesUseCaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B845DE692D5666B700627171 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B845DE4D2D5666B600627171 /* MarsApp */;
+			targetProxy = B845DE682D5666B700627171 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B845DE572D5666B600627171 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B845DE582D5666B600627171 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B845DE5F2D5666B700627171 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B845DE602D5666B700627171 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B845DE792D5666B700627171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B845DE7A2D5666B700627171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B845DE7C2D5666B700627171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F8274AB9E5BF7C25A2F95E0 /* Pods-MarsApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B923R5A4X7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarsApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arctech.MarsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B845DE7D2D5666B700627171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D3D84532E7EA58912594AFB /* Pods-MarsApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B923R5A4X7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MarsApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arctech.MarsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B845DE7F2D5666B700627171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07092B93948F58C1051303C2 /* Pods-MarsAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B923R5A4X7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arctech.MarsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MarsApp";
+			};
+			name = Debug;
+		};
+		B845DE802D5666B700627171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8157714C657D4255408BA934 /* Pods-MarsAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B923R5A4X7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arctech.MarsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MarsApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B845DE492D5666B600627171 /* Build configuration list for PBXProject "MarsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B845DE792D5666B700627171 /* Debug */,
+				B845DE7A2D5666B700627171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B845DE7B2D5666B700627171 /* Build configuration list for PBXNativeTarget "MarsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B845DE7C2D5666B700627171 /* Debug */,
+				B845DE7D2D5666B700627171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B845DE7E2D5666B700627171 /* Build configuration list for PBXNativeTarget "MarsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B845DE7F2D5666B700627171 /* Debug */,
+				B845DE802D5666B700627171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B845DE5A2D5666B600627171 /* MarsApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B845DE5B2D5666B600627171 /* MarsApp.xcdatamodel */,
+			);
+			currentVersion = B845DE5B2D5666B600627171 /* MarsApp.xcdatamodel */;
+			path = MarsApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B845DE462D5666B600627171 /* Project object */;
+}

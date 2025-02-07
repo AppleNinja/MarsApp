@@ -1,0 +1,6 @@
+framework module Pods_MarsApp {
+  umbrella header "Pods-MarsApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
