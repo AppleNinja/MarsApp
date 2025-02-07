@@ -12,8 +12,4 @@ target 'MarsApp' do
     # Pods for testing
   end
 
-  target 'MarsAppUITests' do
-    # Pods for testing
-  end
-
 end

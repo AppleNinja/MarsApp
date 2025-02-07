@@ -1,6 +1,0 @@
-framework module Pods_MarsApp_MarsAppUITests {
-  umbrella header "Pods-MarsApp-MarsAppUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}

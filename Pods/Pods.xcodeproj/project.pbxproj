@@ -9,19 +9,17 @@
 /* Begin PBXBuildFile section */
 		000A5B824AF402AA0C9C4836BE8FC2E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */; };
 		01D3826F7035966C86F0B4AFF068FCC9 /* NSTextAttachment+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1C4217B94DD17114DFE8D6714A0E02 /* NSTextAttachment+Kingfisher.swift */; };
-		082D8CE3E8FFC704CFF40D73A47092A6 /* Pods-MarsApp-MarsAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F97E91C899E48B709B8A5D71922D141 /* Pods-MarsApp-MarsAppUITests-dummy.m */; };
 		083B4F7AB2CE98051BC7AE858A278EFC /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7750D790FD6DA715868EBB089A4EB014 /* CacheSerializer.swift */; };
 		0BF5DE4C1744ABE28885C5609B2DB1A9 /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB014215C0BA33F08DC93C910C3A48C2 /* KingfisherOptionsInfo.swift */; };
 		0CEF208E944869FDCAC972FBBFC23152 /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EF4245E0BCA399FBB77B15A9D12546 /* ImageModifier.swift */; };
 		0FF8A7B322EAFFF99BEF257D91FF03A7 /* NSButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C305116461346EBF75BBD2877CCAF50 /* NSButton+Kingfisher.swift */; };
 		13B4DD41304CBF6D503FDA673AF58AF1 /* ImageDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975409E257AB92C600B64339C0549DAA /* ImageDataProvider.swift */; };
-		15333F004F6FDB2BE8F09698BA6FD5D1 /* Pods-MarsApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC1A54CFD1468B436709F6AE27CE833 /* Pods-MarsApp-dummy.m */; };
+		15333F004F6FDB2BE8F09698BA6FD5D1 /* Pods-MarsApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DCD243FC3A01F97459DCBB88DE9F59 /* Pods-MarsApp-dummy.m */; };
 		21117FFDFAE4E5AE938F61E5CB82E7DD /* AuthenticationChallengeResponsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF768015222DFDC20BFDDCAFF21CD5A /* AuthenticationChallengeResponsable.swift */; };
 		24752E706CE35CEBA44D28CBB6E061E5 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C966F8868A7B1C69269CE340F8F1E5E9 /* RedirectHandler.swift */; };
-		24B47CDF6AD60B7EA0475881397971C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */; };
 		26B933A1E3E202C9A58BFA5E581DDC4A /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DE437AC0061BC43284FF072A4D100 /* Image.swift */; };
 		2D8614A75C2922127E41261B4C788342 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6FCC77336AEC7B57FC54ADEF5330A7 /* Resource.swift */; };
-		30FC9E9731E71690996DA29D1AADF592 /* Pods-MarsAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D155DEF56B5A6DA3C3367D00C92C12E5 /* Pods-MarsAppTests-dummy.m */; };
+		30FC9E9731E71690996DA29D1AADF592 /* Pods-MarsAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B794D30ED97DD886424D5FC3C4960FFD /* Pods-MarsAppTests-dummy.m */; };
 		3213975BBDA24345A85E9AD44508C360 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59548BC548599FCE1483144FED629F86 /* ImageDownloader.swift */; };
 		3A9BF2AFA384608CA9BC6BF3DBCA8B64 /* String+SHA256.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F9C7BEA0BDCE823BE0271547F83ABC /* String+SHA256.swift */; };
 		3ABAC48D825CE7589D3537A7B555E82E /* Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC194EA2FDCC340368400F25732437B /* Placeholder.swift */; };
@@ -31,7 +29,7 @@
 		3DE02365DE7C8B2693DF31BBE122B39D /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF0A8D1E2FFCC1CF7E4DE79618D78D8 /* AnimatedImageView.swift */; };
 		413CB677ACCC41EB7CD0296FC0695F7D /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19346C3003A93E83B95403F5C7D87E /* KingfisherManager.swift */; };
 		4B53E0488B475DE476487DDA81D4064E /* FormatIndicatedCacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEB1E48E877F8E6924D453523B7121D /* FormatIndicatedCacheSerializer.swift */; };
-		4C8941D123B3363AA0230708A9D072A5 /* Pods-MarsAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8707037CECEB9B8F6309E72C6D82790B /* Pods-MarsAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C8941D123B3363AA0230708A9D072A5 /* Pods-MarsAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11CB702155FC5C6B819BA8ED81C56A37 /* Pods-MarsAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F219628E4BDD7A711B863E1EE896478 /* ImageDataProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABCA6B8820E6BF3C8D70C6B5C2D6B05 /* ImageDataProcessor.swift */; };
 		52B3EF723427747FA6E19C8ED02E3EF5 /* DiskStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E5733D124A1CA98B92630CB247A76C /* DiskStorage.swift */; };
 		55B18E643A6B67B76D7DA64DD34402B3 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BFAF5F934F81721357DE3BCEA808CF /* Source.swift */; };
@@ -69,13 +67,12 @@
 		A69756CA90AE1F4D1DCEDA6CF884EC6E /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B436AED0F08AB2278D909EEAEA2C9FBD /* UIButton+Kingfisher.swift */; };
 		A6BBD122A76578FA2A836A33883228F9 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA07102148172F42558CADA6838EA80E /* ImageProcessor.swift */; };
 		A8026FBD528C2EF59720944BBFA84626 /* KF.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4401052500CE16571865A37EF264BD /* KF.swift */; };
-		AA530F62672057E88D174E2B04E1A113 /* Pods-MarsApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 314BBE1E21A4819D8EF9A0900B19C79C /* Pods-MarsApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA530F62672057E88D174E2B04E1A113 /* Pods-MarsApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CFCD0984FAFAEFF7D808AB64E80C787 /* Pods-MarsApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3F8F0D48229FD3BDD792F7EA8D59F44 /* ImageContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F70CB5C94FD36CF4E5305A4CFEBC1 /* ImageContext.swift */; };
 		B4CFBBAAF7A139DDA122D20D78A08ACB /* RetryStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D558F89EA72CAA851D49BAA9E14B563D /* RetryStrategy.swift */; };
 		BBE40B53F214462702884E07D214595A /* HasImageComponent+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7EEE4AE0B129DB9049E6642FB6E808 /* HasImageComponent+Kingfisher.swift */; };
 		BD968B487386B08682457186D74D42F3 /* KFImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C2366275F8E1A12F1DDE8D2A5ECF88 /* KFImage.swift */; };
 		C020B12B0E52CC0944B6CC84CAADA87E /* ImageFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62904D5BA4E17C4EAB860A970098CE30 /* ImageFormat.swift */; };
-		C3A706C311E3B9B1000D5AC3367D1B2A /* Pods-MarsApp-MarsAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 797F6CDC8052B299A896B3E47614F10B /* Pods-MarsApp-MarsAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C64292ACFBDDEBA2CD8FA61444A69D6F /* ImageBinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57413CC53263858880E4423042BC957 /* ImageBinder.swift */; };
 		CAE7857E7D2B7A95763E4941C9237E48 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = FF0D00982F1F9CDBDAABC4A9F6C5F205 /* PrivacyInfo.xcprivacy */; };
 		D14173124DEBFC10F5CDFA082E7A4FC4 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04002B4E5D3CA6A08AFD4FEE2D3EEBB /* Storage.swift */; };
@@ -110,13 +107,6 @@
 			remoteGlobalIDString = 9828BBC09E9FB1238624113D7456E59E;
 			remoteInfo = "Kingfisher-Kingfisher";
 		};
-		AE820804D85AE49B34530F30F006FF54 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E8022D22FAA6690B5E1C379C1BCE1491;
-			remoteInfo = Kingfisher;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -124,71 +114,59 @@
 		07D4AA1170A1FCE15FC2FF2754A5CDAF /* KFImageProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFImageProtocol.swift; path = Sources/SwiftUI/KFImageProtocol.swift; sourceTree = "<group>"; };
 		0BD9B4CA85DE243BA44E7A7DF151CCDE /* KFImageOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFImageOptions.swift; path = Sources/SwiftUI/KFImageOptions.swift; sourceTree = "<group>"; };
 		0E5F4BD36A882E9FFEBA7326FFAD26F0 /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
-		0F97E91C899E48B709B8A5D71922D141 /* Pods-MarsApp-MarsAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarsApp-MarsAppUITests-dummy.m"; sourceTree = "<group>"; };
-		1046ED746F7C9F043E042F5D5BD39D28 /* Pods-MarsApp-MarsAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarsApp-MarsAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		10D68CA96063367BE4AF9D50A97DFE6E /* Pods-MarsAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MarsAppTests.modulemap"; sourceTree = "<group>"; };
 		11BC174595D9E95BAEC4F70261C55A0F /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/General/Kingfisher.swift; sourceTree = "<group>"; };
 		11C1C5E2E03F4C8BF7A43E9447B1C7BD /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
+		11CB702155FC5C6B819BA8ED81C56A37 /* Pods-MarsAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarsAppTests-umbrella.h"; sourceTree = "<group>"; };
 		14AFC096D1C268774C9A446064C0173C /* ImageDrawing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDrawing.swift; path = Sources/Image/ImageDrawing.swift; sourceTree = "<group>"; };
 		14C80915E3E5A36F00206C9D9882E39A /* Kingfisher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.debug.xcconfig; sourceTree = "<group>"; };
-		15E1D103C8460777F09650FF656C9DAB /* Pods-MarsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarsAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		1662ABF77C6F161E4D2CFE6D4E71963C /* Pods-MarsApp-MarsAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarsApp-MarsAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1B8CA4528B172B8E6AA6BC75CC1984F2 /* GraphicsContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphicsContext.swift; path = Sources/Image/GraphicsContext.swift; sourceTree = "<group>"; };
 		20475B2755E3A2A1559517B6757B4C88 /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/Networking/ImagePrefetcher.swift; sourceTree = "<group>"; };
 		222C01CF61D6014A096268F4BBDE3EC8 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Sources/Networking/SessionDelegate.swift; sourceTree = "<group>"; };
-		2455AE81CC177839CBB08728CB5F23CF /* Pods-MarsApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarsApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		29FBFDFE21684B65193DBCC5557DFCBD /* Pods-MarsApp-MarsAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarsApp-MarsAppUITests-Info.plist"; sourceTree = "<group>"; };
+		2DA613D883D024B98FA636D208B12DE1 /* Pods-MarsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarsApp.debug.xcconfig"; sourceTree = "<group>"; };
 		2E0A004534F26C28593B2A85142F5D5A /* ImageDownloaderDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloaderDelegate.swift; path = Sources/Networking/ImageDownloaderDelegate.swift; sourceTree = "<group>"; };
 		2FC37904B18E4F0235F0B7EA7989D7DC /* Pods-MarsApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MarsApp"; path = Pods_MarsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FF95D71216C4FFAC22EB3BDBE4E1C4A /* ImageProgressive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProgressive.swift; path = Sources/Image/ImageProgressive.swift; sourceTree = "<group>"; };
-		314BBE1E21A4819D8EF9A0900B19C79C /* Pods-MarsApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarsApp-umbrella.h"; sourceTree = "<group>"; };
-		35D4ECACC26EDFDBD48A2DF023893BD8 /* Pods-MarsApp-MarsAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarsApp-MarsAppUITests-frameworks.sh"; sourceTree = "<group>"; };
 		37E6772986A87A63766646C586956AF1 /* SizeExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SizeExtensions.swift; path = Sources/Utility/SizeExtensions.swift; sourceTree = "<group>"; };
+		39E09D755E7F31B5DBA4935E69CE245E /* Pods-MarsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarsAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		3C305116461346EBF75BBD2877CCAF50 /* NSButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSButton+Kingfisher.swift"; path = "Sources/Extensions/NSButton+Kingfisher.swift"; sourceTree = "<group>"; };
+		3D222D33DF3FF5A83DFAF0FF415F040F /* Pods-MarsApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarsApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3DA5621994D9CB70511056086DBA72C6 /* KFImageRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFImageRenderer.swift; path = Sources/SwiftUI/KFImageRenderer.swift; sourceTree = "<group>"; };
 		40BB05409A69FE92341E4835E873937F /* Documentation.docc */ = {isa = PBXFileReference; includeInIndex = 1; name = Documentation.docc; path = Sources/Documentation.docc; sourceTree = "<group>"; };
 		41480F34F2DB8BE0C11B8B1A1234F977 /* GIFAnimatedImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GIFAnimatedImage.swift; path = Sources/Image/GIFAnimatedImage.swift; sourceTree = "<group>"; };
-		419E795418704AA2D66ED867F3C72DE6 /* Pods-MarsAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MarsAppTests.modulemap"; sourceTree = "<group>"; };
 		41BFAF5F934F81721357DE3BCEA808CF /* Source.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Source.swift; path = Sources/General/ImageSource/Source.swift; sourceTree = "<group>"; };
 		4207BEE6DFA63E5CF69828DD467E9674 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		458FC30E4EDE7476EBB80AA2A34D52D3 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Image/Filter.swift; sourceTree = "<group>"; };
 		45F6FB5DA036FF919618A480D613A4C0 /* CPListItem+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CPListItem+Kingfisher.swift"; path = "Sources/Extensions/CPListItem+Kingfisher.swift"; sourceTree = "<group>"; };
-		46FFAFA169DDDCE99311DF8A398D7B5A /* Pods-MarsAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarsAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4B1774984A9585C8448B883E6465974B /* Pods-MarsApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarsApp-Info.plist"; sourceTree = "<group>"; };
 		4CA72ABBB48A7BE406513811EF0DB4E2 /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Views/Indicator.swift; sourceTree = "<group>"; };
-		4EB0D06F51CF77A31B62D333F38ACA98 /* Pods-MarsApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarsApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4FA13E0912ECE7FA0910765955CAFBD8 /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kingfisher.modulemap; sourceTree = "<group>"; };
 		515C5FBBFD64AF2DF35953DF4EFED290 /* Pods-MarsAppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MarsAppTests"; path = Pods_MarsAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5185F092BA67A5C99EC877120F5009B1 /* KFAnimatedImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFAnimatedImage.swift; path = Sources/SwiftUI/KFAnimatedImage.swift; sourceTree = "<group>"; };
 		522F70CB5C94FD36CF4E5305A4CFEBC1 /* ImageContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageContext.swift; path = Sources/SwiftUI/ImageContext.swift; sourceTree = "<group>"; };
 		52554E1C9731D5352FDE9E63F8C5466B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
-		5602972203F587A1C0034FAD317521A2 /* Pods-MarsApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarsApp-Info.plist"; sourceTree = "<group>"; };
 		5770544F31A496F048B7A0D6A69A979D /* MemoryStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MemoryStorage.swift; path = Sources/Cache/MemoryStorage.swift; sourceTree = "<group>"; };
-		58099A4654AEB2C5F936DED12228AF78 /* Pods-MarsAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarsAppTests-Info.plist"; sourceTree = "<group>"; };
 		59548BC548599FCE1483144FED629F86 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/Networking/ImageDownloader.swift; sourceTree = "<group>"; };
-		5B9B7F16ED3C1724E686B5EC936CC648 /* Pods-MarsApp-MarsAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MarsApp-MarsAppUITests.modulemap"; sourceTree = "<group>"; };
 		62904D5BA4E17C4EAB860A970098CE30 /* ImageFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFormat.swift; path = Sources/Image/ImageFormat.swift; sourceTree = "<group>"; };
 		6A6FCC77336AEC7B57FC54ADEF5330A7 /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/General/ImageSource/Resource.swift; sourceTree = "<group>"; };
 		6C513CBF6E323A692F984BCB04E23484 /* DisplayLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisplayLink.swift; path = Sources/Utility/DisplayLink.swift; sourceTree = "<group>"; };
 		6EEB1E48E877F8E6924D453523B7121D /* FormatIndicatedCacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormatIndicatedCacheSerializer.swift; path = Sources/Cache/FormatIndicatedCacheSerializer.swift; sourceTree = "<group>"; };
 		7360F5399D333B3ACA98978B99938EEF /* AVAssetImageDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AVAssetImageDataProvider.swift; path = Sources/General/ImageSource/AVAssetImageDataProvider.swift; sourceTree = "<group>"; };
-		746DB49EBB06A815BC230C81D1EC99F2 /* Pods-MarsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarsApp.release.xcconfig"; sourceTree = "<group>"; };
-		74CA5784737CC1E581494FD3BF03238A /* Pods-MarsApp-MarsAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarsApp-MarsAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7750D790FD6DA715868EBB089A4EB014 /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/Cache/CacheSerializer.swift; sourceTree = "<group>"; };
 		77F9C7BEA0BDCE823BE0271547F83ABC /* String+SHA256.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+SHA256.swift"; path = "Sources/Utility/String+SHA256.swift"; sourceTree = "<group>"; };
-		797F6CDC8052B299A896B3E47614F10B /* Pods-MarsApp-MarsAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarsApp-MarsAppUITests-umbrella.h"; sourceTree = "<group>"; };
 		7C1C4217B94DD17114DFE8D6714A0E02 /* NSTextAttachment+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTextAttachment+Kingfisher.swift"; path = "Sources/Extensions/NSTextAttachment+Kingfisher.swift"; sourceTree = "<group>"; };
+		7CFCD0984FAFAEFF7D808AB64E80C787 /* Pods-MarsApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarsApp-umbrella.h"; sourceTree = "<group>"; };
+		7E148DFD8170288B50A3008C9971C928 /* Pods-MarsAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarsAppTests-Info.plist"; sourceTree = "<group>"; };
 		7F1CF136C336E757A9A714B587D78D82 /* PHPickerResultImageDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PHPickerResultImageDataProvider.swift; path = Sources/General/ImageSource/PHPickerResultImageDataProvider.swift; sourceTree = "<group>"; };
 		8642E90654406C355A60B73F7110691D /* CallbackQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallbackQueue.swift; path = Sources/Utility/CallbackQueue.swift; sourceTree = "<group>"; };
 		8688E2A275E16A669156330C27360AC9 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Utility/Result.swift; sourceTree = "<group>"; };
-		8707037CECEB9B8F6309E72C6D82790B /* Pods-MarsAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarsAppTests-umbrella.h"; sourceTree = "<group>"; };
+		86F3502FCC094DE0445D228E3F0687A9 /* Pods-MarsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarsApp.release.xcconfig"; sourceTree = "<group>"; };
 		872D7EFA572ECEE8EF993C27196E16DD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		8ABDDB633FBB4406E7D21F924A80C474 /* KFOptionsSetter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFOptionsSetter.swift; path = Sources/General/KFOptionsSetter.swift; sourceTree = "<group>"; };
 		975409E257AB92C600B64339C0549DAA /* ImageDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDataProvider.swift; path = Sources/General/ImageSource/ImageDataProvider.swift; sourceTree = "<group>"; };
 		9B87E879F70DA33FFDC6FE5F8D569166 /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Utility/Box.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DC1A54CFD1468B436709F6AE27CE833 /* Pods-MarsApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarsApp-dummy.m"; sourceTree = "<group>"; };
 		9EF0A8D1E2FFCC1CF7E4DE79618D78D8 /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/Views/AnimatedImageView.swift; sourceTree = "<group>"; };
-		A3678605F1816DD388893E0A2418DF30 /* Pods-MarsApp-MarsAppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MarsApp-MarsAppUITests"; path = Pods_MarsApp_MarsAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3C51984E2BFFE2F2CFE9C4FD706B538 /* Pods-MarsApp-MarsAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarsApp-MarsAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A429540FAA2FD3949630A8968E52A89E /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/Networking/RequestModifier.swift; sourceTree = "<group>"; };
 		A947F0FA41148D02A278987D238458C4 /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
 		AB014215C0BA33F08DC93C910C3A48C2 /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/General/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
@@ -197,20 +175,20 @@
 		AF19346C3003A93E83B95403F5C7D87E /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/General/KingfisherManager.swift; sourceTree = "<group>"; };
 		B436AED0F08AB2278D909EEAEA2C9FBD /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/Extensions/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
 		B5EF4245E0BCA399FBB77B15A9D12546 /* ImageModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageModifier.swift; path = Sources/Networking/ImageModifier.swift; sourceTree = "<group>"; };
+		B794D30ED97DD886424D5FC3C4960FFD /* Pods-MarsAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarsAppTests-dummy.m"; sourceTree = "<group>"; };
 		C298ABB78D9B05529B89D8322DB2E7B0 /* Kingfisher-Kingfisher */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Kingfisher-Kingfisher"; path = Kingfisher.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C438AD77802D3417F53AFC4F12A9D04E /* Pods-MarsAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarsAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C55FFCBCDD5FF86E16636E754861853B /* Pods-MarsApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MarsApp.modulemap"; sourceTree = "<group>"; };
 		C5E5733D124A1CA98B92630CB247A76C /* DiskStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskStorage.swift; path = Sources/Cache/DiskStorage.swift; sourceTree = "<group>"; };
-		C633BDB674252849CF93700EDADD12BF /* Pods-MarsAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarsAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C966F8868A7B1C69269CE340F8F1E5E9 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Sources/Networking/RedirectHandler.swift; sourceTree = "<group>"; };
 		CA07102148172F42558CADA6838EA80E /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/Image/ImageProcessor.swift; sourceTree = "<group>"; };
-		CD3D2CBD3F167EC08D3B21B7DEF09E3A /* Pods-MarsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarsApp.debug.xcconfig"; sourceTree = "<group>"; };
-		D155DEF56B5A6DA3C3367D00C92C12E5 /* Pods-MarsAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarsAppTests-dummy.m"; sourceTree = "<group>"; };
+		D0E84136E769E980465DAB9FE16E3168 /* Pods-MarsAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarsAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D507DC4C924D72ED3C3C39E8409EC5E7 /* Kingfisher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Kingfisher-Info.plist"; sourceTree = "<group>"; };
 		D558F89EA72CAA851D49BAA9E14B563D /* RetryStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryStrategy.swift; path = Sources/Networking/RetryStrategy.swift; sourceTree = "<group>"; };
 		D66EC29B8A82B0B24E5C62ADEFA78CA4 /* ExtensionHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionHelpers.swift; path = Sources/Utility/ExtensionHelpers.swift; sourceTree = "<group>"; };
 		DAC194EA2FDCC340368400F25732437B /* Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = Sources/Image/Placeholder.swift; sourceTree = "<group>"; };
 		DC7EEE4AE0B129DB9049E6642FB6E808 /* HasImageComponent+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HasImageComponent+Kingfisher.swift"; path = "Sources/Extensions/HasImageComponent+Kingfisher.swift"; sourceTree = "<group>"; };
-		DF64C6FE2F3B42ED759A19EADF440592 /* Pods-MarsAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MarsAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E04002B4E5D3CA6A08AFD4FEE2D3EEBB /* Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Storage.swift; path = Sources/Cache/Storage.swift; sourceTree = "<group>"; };
 		E1AFFEA6AB077970558C66800350FF57 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/Extensions/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
 		E23E20C26FACF7DAB345EBD7B9EC5C29 /* Kingfisher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.release.xcconfig; sourceTree = "<group>"; };
@@ -222,9 +200,11 @@
 		EE910AC25560FCF2BE087F39401452EC /* Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Delegate.swift; path = Sources/Utility/Delegate.swift; sourceTree = "<group>"; };
 		EF57E8EF398EFD47294445EAE9A273D0 /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/Image/ImageTransition.swift; sourceTree = "<group>"; };
 		F0C2366275F8E1A12F1DDE8D2A5ECF88 /* KFImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFImage.swift; path = Sources/SwiftUI/KFImage.swift; sourceTree = "<group>"; };
-		F13AF199300BFC572A08CEE990669C2C /* Pods-MarsApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MarsApp.modulemap"; sourceTree = "<group>"; };
+		F0C99F31F5705E8CDC5C6B501D79ECC0 /* Pods-MarsApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarsApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		F24B669C9538945780453265A153CFE4 /* Pods-MarsApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarsApp-frameworks.sh"; sourceTree = "<group>"; };
 		F57413CC53263858880E4423042BC957 /* ImageBinder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageBinder.swift; path = Sources/SwiftUI/ImageBinder.swift; sourceTree = "<group>"; };
-		FBC092DF77814D86F09CF07D6610D129 /* Pods-MarsApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarsApp-frameworks.sh"; sourceTree = "<group>"; };
+		F61CC244E5E015DBF03F5723A29D63D9 /* Pods-MarsAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MarsAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F6DCD243FC3A01F97459DCBB88DE9F59 /* Pods-MarsApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarsApp-dummy.m"; sourceTree = "<group>"; };
 		FBF768015222DFDC20BFDDCAFF21CD5A /* AuthenticationChallengeResponsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationChallengeResponsable.swift; path = Sources/Networking/AuthenticationChallengeResponsable.swift; sourceTree = "<group>"; };
 		FF0D00982F1F9CDBDAABC4A9F6C5F205 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -255,14 +235,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E33234B6A6F288D8CCFB37270753C896 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				24B47CDF6AD60B7EA0475881397971C2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E770C496DFE16C88DF7B39487A40BEAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -282,30 +254,48 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2B3B1239230E11B782FF59610D0EF882 /* Pods-MarsAppTests */ = {
+		31590274640991F9FDCAEE1E561D42B1 /* Pods-MarsApp */ = {
 			isa = PBXGroup;
 			children = (
-				419E795418704AA2D66ED867F3C72DE6 /* Pods-MarsAppTests.modulemap */,
-				DF64C6FE2F3B42ED759A19EADF440592 /* Pods-MarsAppTests-acknowledgements.markdown */,
-				46FFAFA169DDDCE99311DF8A398D7B5A /* Pods-MarsAppTests-acknowledgements.plist */,
-				D155DEF56B5A6DA3C3367D00C92C12E5 /* Pods-MarsAppTests-dummy.m */,
-				58099A4654AEB2C5F936DED12228AF78 /* Pods-MarsAppTests-Info.plist */,
-				8707037CECEB9B8F6309E72C6D82790B /* Pods-MarsAppTests-umbrella.h */,
-				C633BDB674252849CF93700EDADD12BF /* Pods-MarsAppTests.debug.xcconfig */,
-				15E1D103C8460777F09650FF656C9DAB /* Pods-MarsAppTests.release.xcconfig */,
+				C55FFCBCDD5FF86E16636E754861853B /* Pods-MarsApp.modulemap */,
+				3D222D33DF3FF5A83DFAF0FF415F040F /* Pods-MarsApp-acknowledgements.markdown */,
+				F0C99F31F5705E8CDC5C6B501D79ECC0 /* Pods-MarsApp-acknowledgements.plist */,
+				F6DCD243FC3A01F97459DCBB88DE9F59 /* Pods-MarsApp-dummy.m */,
+				F24B669C9538945780453265A153CFE4 /* Pods-MarsApp-frameworks.sh */,
+				4B1774984A9585C8448B883E6465974B /* Pods-MarsApp-Info.plist */,
+				7CFCD0984FAFAEFF7D808AB64E80C787 /* Pods-MarsApp-umbrella.h */,
+				2DA613D883D024B98FA636D208B12DE1 /* Pods-MarsApp.debug.xcconfig */,
+				86F3502FCC094DE0445D228E3F0687A9 /* Pods-MarsApp.release.xcconfig */,
+			);
+			name = "Pods-MarsApp";
+			path = "Target Support Files/Pods-MarsApp";
+			sourceTree = "<group>";
+		};
+		4E7A2D60C4ECE8AE79DB11459EBB4C0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */,
+				C298ABB78D9B05529B89D8322DB2E7B0 /* Kingfisher-Kingfisher */,
+				2FC37904B18E4F0235F0B7EA7989D7DC /* Pods-MarsApp */,
+				515C5FBBFD64AF2DF35953DF4EFED290 /* Pods-MarsAppTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EB2DD330CCB2BC8640FD9C2C16249C8 /* Pods-MarsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				10D68CA96063367BE4AF9D50A97DFE6E /* Pods-MarsAppTests.modulemap */,
+				C438AD77802D3417F53AFC4F12A9D04E /* Pods-MarsAppTests-acknowledgements.markdown */,
+				F61CC244E5E015DBF03F5723A29D63D9 /* Pods-MarsAppTests-acknowledgements.plist */,
+				B794D30ED97DD886424D5FC3C4960FFD /* Pods-MarsAppTests-dummy.m */,
+				7E148DFD8170288B50A3008C9971C928 /* Pods-MarsAppTests-Info.plist */,
+				11CB702155FC5C6B819BA8ED81C56A37 /* Pods-MarsAppTests-umbrella.h */,
+				D0E84136E769E980465DAB9FE16E3168 /* Pods-MarsAppTests.debug.xcconfig */,
+				39E09D755E7F31B5DBA4935E69CE245E /* Pods-MarsAppTests.release.xcconfig */,
 			);
 			name = "Pods-MarsAppTests";
 			path = "Target Support Files/Pods-MarsAppTests";
-			sourceTree = "<group>";
-		};
-		30C0008DF37533529E860BBCE32E29EB /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FA441A79EF25BD924CD43B9536CA0A0F /* Pods-MarsApp */,
-				A487D51A3B2B92F9E0CF200DC3E2B7A0 /* Pods-MarsApp-MarsAppUITests */,
-				2B3B1239230E11B782FF59610D0EF882 /* Pods-MarsAppTests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		5EE21CBB8EFB615AB450D209E054FAE6 /* iOS */ = {
@@ -318,33 +308,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A487D51A3B2B92F9E0CF200DC3E2B7A0 /* Pods-MarsApp-MarsAppUITests */ = {
+		94830D37695760880DBFA02D0936A4CD /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5B9B7F16ED3C1724E686B5EC936CC648 /* Pods-MarsApp-MarsAppUITests.modulemap */,
-				1662ABF77C6F161E4D2CFE6D4E71963C /* Pods-MarsApp-MarsAppUITests-acknowledgements.markdown */,
-				74CA5784737CC1E581494FD3BF03238A /* Pods-MarsApp-MarsAppUITests-acknowledgements.plist */,
-				0F97E91C899E48B709B8A5D71922D141 /* Pods-MarsApp-MarsAppUITests-dummy.m */,
-				35D4ECACC26EDFDBD48A2DF023893BD8 /* Pods-MarsApp-MarsAppUITests-frameworks.sh */,
-				29FBFDFE21684B65193DBCC5557DFCBD /* Pods-MarsApp-MarsAppUITests-Info.plist */,
-				797F6CDC8052B299A896B3E47614F10B /* Pods-MarsApp-MarsAppUITests-umbrella.h */,
-				A3C51984E2BFFE2F2CFE9C4FD706B538 /* Pods-MarsApp-MarsAppUITests.debug.xcconfig */,
-				1046ED746F7C9F043E042F5D5BD39D28 /* Pods-MarsApp-MarsAppUITests.release.xcconfig */,
+				31590274640991F9FDCAEE1E561D42B1 /* Pods-MarsApp */,
+				4EB2DD330CCB2BC8640FD9C2C16249C8 /* Pods-MarsAppTests */,
 			);
-			name = "Pods-MarsApp-MarsAppUITests";
-			path = "Target Support Files/Pods-MarsApp-MarsAppUITests";
-			sourceTree = "<group>";
-		};
-		C4CF4D245B03480FBC3050FF227E45BB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C3F44C782D64D7EB20B61CE3844EBFAD /* Kingfisher */,
-				C298ABB78D9B05529B89D8322DB2E7B0 /* Kingfisher-Kingfisher */,
-				2FC37904B18E4F0235F0B7EA7989D7DC /* Pods-MarsApp */,
-				A3678605F1816DD388893E0A2418DF30 /* Pods-MarsApp-MarsAppUITests */,
-				515C5FBBFD64AF2DF35953DF4EFED290 /* Pods-MarsAppTests */,
-			);
-			name = Products;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		C6E782F8E5B68AE4FDD955AA6D4764C9 /* Support Files */ = {
@@ -369,8 +339,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
 				DBBDAC5C6E9FBE707787E103186ABC80 /* Pods */,
-				C4CF4D245B03480FBC3050FF227E45BB /* Products */,
-				30C0008DF37533529E860BBCE32E29EB /* Targets Support Files */,
+				4E7A2D60C4ECE8AE79DB11459EBB4C0A /* Products */,
+				94830D37695760880DBFA02D0936A4CD /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -463,23 +433,6 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		FA441A79EF25BD924CD43B9536CA0A0F /* Pods-MarsApp */ = {
-			isa = PBXGroup;
-			children = (
-				F13AF199300BFC572A08CEE990669C2C /* Pods-MarsApp.modulemap */,
-				4EB0D06F51CF77A31B62D333F38ACA98 /* Pods-MarsApp-acknowledgements.markdown */,
-				2455AE81CC177839CBB08728CB5F23CF /* Pods-MarsApp-acknowledgements.plist */,
-				9DC1A54CFD1468B436709F6AE27CE833 /* Pods-MarsApp-dummy.m */,
-				FBC092DF77814D86F09CF07D6610D129 /* Pods-MarsApp-frameworks.sh */,
-				5602972203F587A1C0034FAD317521A2 /* Pods-MarsApp-Info.plist */,
-				314BBE1E21A4819D8EF9A0900B19C79C /* Pods-MarsApp-umbrella.h */,
-				CD3D2CBD3F167EC08D3B21B7DEF09E3A /* Pods-MarsApp.debug.xcconfig */,
-				746DB49EBB06A815BC230C81D1EC99F2 /* Pods-MarsApp.release.xcconfig */,
-			);
-			name = "Pods-MarsApp";
-			path = "Target Support Files/Pods-MarsApp";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -499,14 +452,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5BD6530CCD8C2F8EB19A6DFAEC81F08 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3A706C311E3B9B1000D5AC3367D1B2A /* Pods-MarsApp-MarsAppUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A627D7AB043C419F9DE2C5C333850EE3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -518,25 +463,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1B8F0A85B22D8A3B184C5501B8C56293 /* Pods-MarsApp-MarsAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 21F8E1E8633E13362B08A75175B337A7 /* Build configuration list for PBXNativeTarget "Pods-MarsApp-MarsAppUITests" */;
-			buildPhases = (
-				A5BD6530CCD8C2F8EB19A6DFAEC81F08 /* Headers */,
-				C0F8A31A828BF3FBCDC874B25F005979 /* Sources */,
-				E33234B6A6F288D8CCFB37270753C896 /* Frameworks */,
-				501F095F579624B00DCB661485976BC5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EFD1E10690ECAC66D496D9F52E08FC62 /* PBXTargetDependency */,
-			);
-			name = "Pods-MarsApp-MarsAppUITests";
-			productName = Pods_MarsApp_MarsAppUITests;
-			productReference = A3678605F1816DD388893E0A2418DF30 /* Pods-MarsApp-MarsAppUITests */;
-			productType = "com.apple.product-type.framework";
-		};
 		2FC1B364401E7F9E303F56379FE15C41 /* Pods-MarsAppTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26BBD6C01A470EFE26748D8424FCEAB6 /* Build configuration list for PBXNativeTarget "Pods-MarsAppTests" */;
@@ -629,27 +555,19 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = C4CF4D245B03480FBC3050FF227E45BB /* Products */;
+			productRefGroup = 4E7A2D60C4ECE8AE79DB11459EBB4C0A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */,
 				9828BBC09E9FB1238624113D7456E59E /* Kingfisher-Kingfisher */,
 				7CF5BDADF21547943A331D1DE2F5B942 /* Pods-MarsApp */,
-				1B8F0A85B22D8A3B184C5501B8C56293 /* Pods-MarsApp-MarsAppUITests */,
 				2FC1B364401E7F9E303F56379FE15C41 /* Pods-MarsAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		501F095F579624B00DCB661485976BC5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		56BD466649A7EE08034C5B6919A4C8DC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -777,14 +695,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0F8A31A828BF3FBCDC874B25F005979 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				082D8CE3E8FFC704CFF40D73A47092A6 /* Pods-MarsApp-MarsAppUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -799,12 +709,6 @@
 			name = Kingfisher;
 			target = E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */;
 			targetProxy = 75AE0A6147DD99BD7A08478CDFEBAE9B /* PBXContainerItemProxy */;
-		};
-		EFD1E10690ECAC66D496D9F52E08FC62 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Kingfisher;
-			target = E8022D22FAA6690B5E1C379C1BCE1491 /* Kingfisher */;
-			targetProxy = AE820804D85AE49B34530F30F006FF54 /* PBXContainerItemProxy */;
 		};
 		F96B11A772CD7E19C4BC041384F0E7E2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -881,47 +785,9 @@
 			};
 			name = Debug;
 		};
-		22464D1F1270DC6F1F4D6314F0D75132 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1046ED746F7C9F043E042F5D5BD39D28 /* Pods-MarsApp-MarsAppUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MarsApp-MarsAppUITests/Pods-MarsApp-MarsAppUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MarsApp-MarsAppUITests/Pods-MarsApp-MarsAppUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		2EBB117D03B22425888FC6F55BA371C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 746DB49EBB06A815BC230C81D1EC99F2 /* Pods-MarsApp.release.xcconfig */;
+			baseConfigurationReference = 86F3502FCC094DE0445D228E3F0687A9 /* Pods-MarsApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1071,43 +937,6 @@
 			};
 			name = Release;
 		};
-		74E4C73A91C8EF146282C89248064AD9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3C51984E2BFFE2F2CFE9C4FD706B538 /* Pods-MarsApp-MarsAppUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MarsApp-MarsAppUITests/Pods-MarsApp-MarsAppUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MarsApp-MarsAppUITests/Pods-MarsApp-MarsAppUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		96CE71436CF308C8F6A73598B5F36BE7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E23E20C26FACF7DAB345EBD7B9EC5C29 /* Kingfisher.release.xcconfig */;
@@ -1163,7 +992,7 @@
 		};
 		C7A9A0C0D2E0C584E1771D73B1202159 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C633BDB674252849CF93700EDADD12BF /* Pods-MarsAppTests.debug.xcconfig */;
+			baseConfigurationReference = D0E84136E769E980465DAB9FE16E3168 /* Pods-MarsAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1200,7 +1029,7 @@
 		};
 		CE39F39C13857DC386405FB9D2D87111 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD3D2CBD3F167EC08D3B21B7DEF09E3A /* Pods-MarsApp.debug.xcconfig */;
+			baseConfigurationReference = 2DA613D883D024B98FA636D208B12DE1 /* Pods-MarsApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1237,7 +1066,7 @@
 		};
 		D7F9592022A98C26ECF9078020118F22 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15E1D103C8460777F09650FF656C9DAB /* Pods-MarsAppTests.release.xcconfig */;
+			baseConfigurationReference = 39E09D755E7F31B5DBA4935E69CE245E /* Pods-MarsAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1281,15 +1110,6 @@
 			buildConfigurations = (
 				CE39F39C13857DC386405FB9D2D87111 /* Debug */,
 				2EBB117D03B22425888FC6F55BA371C8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		21F8E1E8633E13362B08A75175B337A7 /* Build configuration list for PBXNativeTarget "Pods-MarsApp-MarsAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				74E4C73A91C8EF146282C89248064AD9 /* Debug */,
-				22464D1F1270DC6F1F4D6314F0D75132 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
